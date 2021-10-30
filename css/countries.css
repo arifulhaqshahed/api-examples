@@ -1,0 +1,16 @@
+.country {
+  border: 2px solid tomato;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.see-btn {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 700;
+}
+#countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
